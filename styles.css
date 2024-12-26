@@ -156,6 +156,7 @@
     display: flex;
     padding: 70px;
     justify-content: center;
+    margin-top: 30px;
 }
 .iconos__redes {
     width: 20%;
