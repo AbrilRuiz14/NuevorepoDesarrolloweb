@@ -379,6 +379,8 @@
 .tarjetacarrito {
     display: flex;
     padding: 40px;
+    flex-direction: column;
+    align-items: center;
 }
 .tarjetacarrito__1 {
     width: 50%;
