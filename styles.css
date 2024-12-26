@@ -194,6 +194,8 @@
 .tarjetasayuda {
     display: flex;
     padding: 5px;
+    flex-direction: column;
+    align-items: center;
 }
 .tarjetas__ayuda1 {
     width: 30%;
