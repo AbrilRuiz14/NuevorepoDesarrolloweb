@@ -54,6 +54,7 @@
 .articulos {
     display: flex;
     padding: 10px;
+    flex-direction: column;
 }
 .articulo__imagen {
     width: 50%;
