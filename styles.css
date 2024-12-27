@@ -483,9 +483,16 @@
     .articulos{
         flex-direction: row;
     }
+    .descripcion{
+        flex-direction: row;
+    }
+    .button{
+        flex-direction: row;
+    }
     .coleccion {
 
         padding: 10px;
+        flex-direction: row;
         
     }
     .coleccion__footer {
@@ -493,6 +500,10 @@
         height: 40vh;
 
         font-size: 18px;
+    }
+    .lista ul{
+        flex-direction: row;
+
     }
     .titulo__ayuda {
 
