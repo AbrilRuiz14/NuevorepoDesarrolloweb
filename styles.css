@@ -509,6 +509,21 @@
         margin-top: -100px;
         
     }
+    .titulo__temas{
+        font-size: 18px;
+    }
+    .tarjetas__abajo1{
+        font-size: 15px;
+    }
+    .tarjetas__abajo2{
+        font-size: 15px;
+    }
+    .tarjetas__tiendas1{
+        font-size: 15px;
+    }
+    .tarjetas__tiendas2{
+        font-size: 15px;
+    }
     .cuenta{
         text-align: center;
     }
