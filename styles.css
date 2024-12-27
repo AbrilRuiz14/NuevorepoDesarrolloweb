@@ -492,6 +492,7 @@
         padding: 10px;
         margin: 0;
         height: 40vh;
+        margin-top: -100px;
     }
     .descripcion__articulos{
         font-size: 18px;
@@ -500,8 +501,8 @@
         flex-direction: row;
     }
     .button__articulo{
-        padding: 10px 30px;
-        border-radius: 4px;
+        padding: 10px 20px;
+        border-radius: 3px;
         font-size: 18px;
         margin: 60px;
         margin-bottom: 0;
