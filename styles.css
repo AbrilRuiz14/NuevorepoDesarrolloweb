@@ -276,6 +276,7 @@
 .tarjetasabajo {
     display: flex;
     padding: 10px;
+    margin-right: 10px;
 }
 .tarjetas__abajo1 {
     width: 50%;
@@ -491,7 +492,7 @@
         font-size: 18px;
     }
     .titulo__ayuda {
-    
+
     margin-top: 100px;
     font-size: 40px;
     }
