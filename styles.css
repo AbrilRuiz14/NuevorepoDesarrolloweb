@@ -697,7 +697,7 @@
         display: flex;
         padding: 10px;
     }
-    .tarjetas__ayuda1 {
+    .tarjetas__ayuda {
         width: 30%;
         height: 20vh;
         background-color: white;
@@ -707,38 +707,12 @@
         text-align: center;
     
     }
-    .tarjetas__ayuda2 {
-        width: 30%;
-        height: 20vh;
-        background-color: white;
-        border: 2px solid skyblue;
-        line-height: 100%;
-        margin: 30px 30px;
-        text-align: center;
-    }
-    .tarjetas__ayuda3 {
-        width: 30%;
-        height: 20vh;
-        background-color: white;
-        border: 2px solid skyblue;
-        line-height: 100%;
-        margin: 30px 30px;
-        text-align: center;
-    }
-    .tarjetas__ayuda4 {
-        width: 30%;
-        height: 20vh;
-        background-color: white;
-        border: 2px solid skyblue;
-        line-height: 100%;
-        margin: 30px 30px;
-        text-align: center;
-    }
+
     .ayudatarjetas {
         display: flex;
         padding: 10px;
     }
-    .ayuda__tarjetas1 {
+    .ayuda__tarjetas {
         width: 20%;
         height: 20vh;
         background-color: white;
@@ -748,16 +722,7 @@
         text-align: center;
         margin-bottom: 200px;
     }
-    .ayuda__tarjetas2 {
-        width: 20%;
-        height: 20vh;
-        background-color: white;
-        border: 2px solid skyblue;
-        line-height: 100%;
-        margin: 30px 30px;
-        text-align: center;
-        margin-bottom: 200px;
-    }
+
     .tiendas__imagen {
         margin-top: 20px;
     }
@@ -797,14 +762,11 @@
         margin-top: 70px;
         font-size: 20px;
     }
-    .tarjetas__tiendas__1 {
+    .tarjetas__tiendas {
         margin-top: 80px;
         margin-left: 20px;
     }
-    .tarjetas__tiendas__2 {
-        margin-top: 80px;
-        margin-right: 20px;
-    }
+   
     .tarjetasabajo {
         display: flex;
         padding: 10px;
@@ -835,14 +797,11 @@
         font-size: 20px; 
         margin-bottom: 200px;
     }
-    .tarjetas__abajo__1 {
+    .tarjetas__abajo {
         margin-top: 80px;
         margin-left: 20px
     }
-    .tarjetas__abajo__2 {
-        margin-top: 80px;
-        margin-right: 20px;
-    }
+   
     .favoritos{
         text-align: center;
         font-weight: bold;
@@ -920,19 +879,7 @@
         font-size: 18px;
     
     }
-    .tarjetacarrito__button:hover {
-        background-color: skyblue;
-    }
-    .productos{
-        text-align: end;
-        font-weight: lighter;
-        font-style: normal;
-        color: black;
-        margin-top: 10px;
-        margin-right: 100px;
-        margin-bottom: 10px;
-        margin-left: 100px;
-    }
+    
     .cuenta{
         font-weight: bold;
         font-style: italic;
@@ -940,15 +887,5 @@
         font-size: 60px;
         margin-top: 100px;
     }
-    .opcion{
-        font-weight: lighter;
-        font-style: italic;
-        color: black;
-        text-align: justify;
-        font-size: 30px;
-    
-    }
-    .recibir{
-        margin-bottom: 50px;
-    }
+   
 }
