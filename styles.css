@@ -576,6 +576,7 @@
     .aprovecha{
         
         font-size: 60px;
+        margin-top: 60px;
         
     }
     .articulos {
@@ -589,15 +590,15 @@
     }
     .descripcion__articulos {
         
-        height: 40vh;   
+        height: 50vh;   
          margin-top: -250px;
     }
     
     .button__articulo {
 
-        padding: 20px 30px;
+        padding: 0px 10px;
         border-radius: 4px;
-        margin: 60px;
+        margin: 0;
         font-size: 18px;
         top: -350px;
     }
@@ -622,6 +623,8 @@
     .iconos {
         
         padding: 80px;
+        width: 10%;
+        height: 0;
         
     }
     .iconos__redes {
