@@ -3,15 +3,19 @@ $font-stack: 'Lucida Sans';
 $secundary-color: skyblue;
 $tertiary-color: blueviolet;
 
+@mixin flex() {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
 .navbar {
     background-color: $primary-color;
 
     ul {
-        display: flex;
-        flex-direction: column;
+        @include flex();
         padding: 0;
         margin: 100px;
-        align-items: center;
         list-style: none;
 
         li {
@@ -26,4 +30,741 @@ $tertiary-color: blueviolet;
             }
         }
     }
+}
+
+.adonis {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+
+}
+
+.adonis__logo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.perchero__imagen {
+    margin-top: 20px;
+}
+
+.aprovecha {
+    text-align: center;
+    font-style: normal;
+    font-weight: lighter;
+    color: $tertiary-color;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.articulos {
+    @include flex();
+    padding: 10px;
+    
+}
+
+.articulo__imagen {
+    width: 50%;
+    height: 50vh;
+    background-color: white;
+    border: 2px solid white;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.descripcion {
+    @include flex();
+    padding: 0;
+    margin: 100px;
+
+}
+
+.descripcion__articulos {
+    width: 50%;
+    height: 20vh;
+    background-color: white;
+    border: 2px solid white;
+    line-height: 100%;
+    text-align: center;
+    font-family: $font-stack;
+    font-size: 15px;
+
+
+}
+
+.button {
+    @include flex();
+    padding: 0;
+    margin: 100px;
+
+
+}
+
+.button__articulo {
+    padding: 5px 5px;
+    background-color: $tertiary-color;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    position: relative;
+    margin-bottom: 50px;
+
+
+}
+
+.button__articulo:hover {
+    background-color: $secundary-color;
+}
+
+.lista {
+    background-color: $primary-color;
+
+    ul {
+        @include flex();
+        list-style: none;
+        padding: 0;
+        margin: 100px;
+
+        li {
+            margin: 0 15px;
+
+            a {
+                color: black;
+                font-family: $font-stack;
+                text-decoration: none;
+                padding: 15px 20px;
+                display: block;
+            }
+        }
+    }
+}
+
+.coleccion {
+    @include flex();
+    padding: 0;
+    background-color: $secundary-color;
+    
+    
+}
+.coleccion__footer {
+    width: 40%;
+    background-color: $secundary-color;
+    border: 2px solid $secundary-color;
+    text-align: center;
+    font-style: italic;
+    font-size: 11px;
+}
+.iconos {
+    display: flex;
+    padding: 70px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.iconos__redes {
+    width: 20%;
+    height: 20vh;
+    background-color: white;
+    border: 2px solid white;
+    line-height: 100%;
+    text-align: center;
+}
+.logo {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+.logo__final {
+    margin-top: -80px;
+}
+
+.titulo__ayuda {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: $secundary-color;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.titulo__temas {
+    text-align: justify;
+    font-weight: lighter;
+    font-style: italic;
+    margin-left: 20px;
+    font-size: 15px;
+    color: black;
+    margin-top: 20px;
+}
+.tarjetasayuda {
+    @include flex();
+    padding: 5px;
+    
+}
+.tarjetas__ayuda {
+    width: 30%;
+    height: 20vh;
+    background-color: white;
+    border: 2px solid $secundary-color;
+    line-height: 100%;
+    margin: 10px 10px;
+    text-align: center;
+    font-size: 10px;
+
+}
+
+.ayudatarjetas {
+    @include flex();
+    padding: 10px;
+    
+}
+.ayuda__tarjetas {
+    width: 20%;
+    height: 20vh;
+    background-color: white;
+    border: 2px solid $secundary-color;
+    line-height: 100%;
+    margin: 10px 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.tiendas__imagen {
+    margin-top: 20px;
+}
+.titulo_tiendas {
+    font-style: italic;
+    font-weight: bold;
+    color: $secundary-color;
+    font-size: 30px ;
+    margin-top: 100px;
+    text-align: center;
+}
+.tarjetas {
+    display: flex;
+    padding: 10px;
+}
+.tarjetas__tiendas1 {
+    width: 50%;
+    height: 30vh;
+    background-color: white;
+    border: 2px solid $tertiary-color;
+    line-height: 100%;
+    text-align: start;
+    font-family: $font-stack;
+    margin: 30px 30px;
+    margin-top: 40px;
+    font-size: 10px;
+    
+}
+.tarjetas__tiendas2 {
+    width: 50%;
+    height: 30vh;
+    background-color: white;
+    border: 2px solid $tertiary-color;
+    line-height: 100%;
+    text-align: end;
+    font-family: $font-stack;
+    margin: 30px 30px;
+    margin-top: 40px;
+    font-size: 10px;
+    
+}
+.tarjetas__tiendas {
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tarjetasabajo {
+    display: flex;
+    padding: 10px;
+    margin-right: 10px;
+}
+.tarjetas__abajo1 {
+    width: 50%;
+    height: 30vh;
+    background-color: white;
+    border: 2px solid $tertiary-color;
+    line-height: 100%;
+    text-align: start;
+    font-family: $font-stack;
+    margin: 30px 30px;
+    margin-top: 40px;
+    font-size: 10px;
+    margin-bottom: 200px;
+}
+.tarjetas__abajo2 {
+    width: 50%;
+    height: 30vh;
+    background-color: white;
+    border: 2px solid $tertiary-color;
+    line-height: 100%;
+    text-align: end;
+    font-family: $font-stack;
+    margin: 30px 30px;
+    margin-top: 40px;
+    font-size: 10px; 
+    margin-bottom: 200px;
+    margin-right: 20px;
+}
+.tarjetas__abajo {
+    margin-top: 60px;
+    margin-left: 10px
+}
+
+.favoritos{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: $tertiary-color;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.estalista{
+    text-align: center;
+    font-weight: lighter;
+    font-family: $font-stack;
+    color: black;
+    margin-top: 150px;
+    font-size: 15px;
+    margin-bottom: 200px;
+}
+
+.subtituloseguircomprando {
+    text-align: center;
+    font-weight: lighter;
+    font-family: $font-stack;
+    font-size: 5px;
+    color: black;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.tarjetacarrito {
+    @include flex();
+    padding: 40px;
+    
+}
+.tarjetacarrito_ {
+    width: 50%;
+    height: 50vh;
+    background-color: white;
+    border: 2px solid white;
+    line-height: 100%;
+    text-align: center;
+    margin: 30px 30px;
+}
+
+.tarjetacarrito__titulo {
+    text-align: justify;
+    color: $secundary-color;
+    font-size: 15px;
+    margin-top: 30px;
+    font-family: $font-stack;
+}
+.tarjetacarrito__parrafo {
+    text-align: justify;
+    color: black;
+    font-size: 13px;
+    font-style: normal;
+
+}
+.tarjetacarrito__button {
+    padding: 10px 15px;
+    background-color: $tertiary-color;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 50px;
+    transition: background-color 0.3s;
+    font-size: 15px;
+    margin-right: 20px;
+
+}
+.tarjetacarrito__button:hover {
+    background-color: $secundary-color;
+}
+.productos{
+    text-align: end;
+    font-weight: lighter;
+    font-style: normal;
+    color: black;
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+.cuenta{
+    font-weight: bold;
+    font-style: italic;
+    color: $tertiary-color;
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: center;
+}
+.opcion{
+    font-weight: lighter;
+    font-style: italic;
+    color: black;
+    text-align: justify;
+    font-size: 30px;
+
+}
+
+.form-register{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    font-family: 'Calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Calibri';
+    font-size: 18px;
+}
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+.form-register a{
+    color: white;
+    text-decoration: none;
+}
+.form-register a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.form-register .botons{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+@media (min-width:768px) {
+    
+    .navbar ul {
+
+        margin: 0;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .navbar a {
+
+        padding: 5px 5px;
+        display: block;
+        font-size: 13px;
+        
+    }
+    .navbar__derecha {
+        position: relative;
+        left: 100px;
+    }
+    .articulos{
+        flex-direction: row;
+    }
+    .articulo__imagen{
+        margin-bottom: 0;
+    }
+    .descripcion{
+        flex-direction: row;
+        padding: 10px;
+        margin: 0;
+        height: 0;
+        margin-top: -100px;
+    }
+    .descripcion__articulos{
+        font-size: 18px;
+    }
+    .button{
+        flex-direction: row;
+    }
+    .button__articulo{
+        padding: 10px 20px;
+        border-radius: 3px;
+        font-size: 18px;
+        margin: 40px;
+        margin-bottom: 0;
+        margin-top: -50px
+        
+    }
+    .titulo__temas{
+        font-size: 18px;
+    }
+    .tarjetas__abajo1{
+        font-size: 15px;
+    }
+    .tarjetas__abajo2{
+        font-size: 15px;
+    }
+    .tarjetas__tiendas1{
+        font-size: 15px;
+    }
+    .tarjetas__tiendas2{
+        font-size: 15px;
+    }
+    .cuenta{
+        text-align: center;
+    }
+    .tarjetacarrito{
+        flex-direction: row;
+    }
+    .coleccion {
+
+        padding: 10px;
+        flex-direction: row;
+        
+    }
+    .coleccion__footer {
+
+        height: 40vh;
+        line-height: 100%;
+        font-size: 20px;
+
+        font-size: 18px;
+    }
+    .lista ul{
+        flex-direction: row;
+        align-items: start;
+        margin: 0;
+
+    }
+    .titulo__ayuda {
+
+    margin-top: 100px;
+    font-size: 40px;
+    }
+    .titulo_tiendas {
+        
+        font-size: 40px ;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+
+    
+}
+
+@media (min-width:1024px) {
+    
+   
+    .navbar__derecha {
+        position: relative;
+        left: 370px;
+    }
+
+    .aprovecha{
+        
+        font-size: 60px;
+        margin-top: 60px;
+        
+    }
+    .articulos {
+        
+        padding: 120px;
+    }
+   
+    .descripcion {
+        
+        padding: 120px;
+    }
+    .descripcion__articulos {
+        
+        height: 50vh;   
+         margin-top: -250px;
+    }
+    
+    .button__articulo {
+
+        
+        border-radius: 4px;
+        font-size: 18px;
+        top: -350px;
+    }
+    
+    
+    .lista ul{
+
+        margin: 0;
+    }
+    
+    .coleccion {
+        
+        padding: 10px;
+        
+    }
+    .coleccion__footer {
+        
+        height: 40vh;
+        line-height: 100%;
+        font-size: 20px;
+    }
+    .iconos {
+        
+        padding: 80px;
+        
+        
+    }
+    .iconos__redes {
+        width: 5%;
+        height: 5vh;
+        
+    }
+    
+    .logo__final {
+        width: 50%;
+        height: 30vh;
+        background-color: white;
+        border: 2px solid white;
+        line-height: 100%;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    .titulo__ayuda {
+        
+        margin-top: 100px;
+        margin-bottom: 50px;
+        font-size: 60px;
+    }
+    .titulo__temas {
+        
+        font-size: 30px;
+        
+    }
+    .tarjetasayuda {
+        
+        padding: 10px;
+        flex-direction: row;
+    }
+    .tarjetas__ayuda {
+        
+        margin: 30px 30px;
+        
+    
+    }
+
+    .ayudatarjetas{
+        flex-direction: row;
+    }
+
+
+    .ayuda__tarjetas {
+        
+        margin: 30px 30px;
+        margin-bottom: 200px;
+        flex-direction: row;
+    }
+
+    .titulo_tiendas {
+        
+        font-size: 60px ;
+        
+    }
+    
+    .tarjetas__tiendas1 {
+        
+        margin-top: 70px;
+        font-size: 20px;
+        
+    }
+    .tarjetas__tiendas2 {
+        
+        margin-top: 70px;
+        font-size: 20px;
+    }
+    .tarjetas__tiendas {
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+   
+    .tarjetas__abajo1 {
+        
+        margin-top: 70px;
+        font-size: 20px;
+        
+    }
+    .tarjetas__abajo2 {
+        
+        margin-top: 70px;
+        font-size: 20px; 
+        
+    }
+    .tarjetas__abajo {
+        margin-top: 80px;
+        margin-left: 20px
+    }
+   
+    .favoritos{
+
+        font-size: 60px;
+    }
+    .estalista{
+        
+        font-size: 20px;
+        
+    }
+    
+    .subtituloseguircomprando {
+        
+        font-size: 10px;
+        
+    }
+    
+    .tarjetacarrito_ {
+        
+        margin-bottom: 150px;
+    }
+   
+    .tarjetacarrito__titulo {
+        
+        font-size: 30px;
+        
+    }
+    .tarjetacarrito__parrafo {
+        
+        font-size: 20px;
+        
+    
+    }
+    .tarjetacarrito__button {
+        padding: 20px 40px;
+        margin: 80px;
+        font-size: 18px;
+    
+    }
+    
+    .cuenta{
+        
+        font-size: 60px;
+        
+    }
+   
 }
