@@ -480,6 +480,9 @@
         position: relative;
         left: 100px;
     }
+    .articulos{
+        flex-direction: row;
+    }
     .coleccion {
 
         padding: 10px;
