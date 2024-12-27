@@ -570,7 +570,7 @@
    
     .navbar__derecha {
         position: relative;
-        left: 300px;
+        left: 370px;
     }
 
     .aprovecha{
@@ -598,7 +598,6 @@
 
         
         border-radius: 4px;
-        margin: 0;
         font-size: 18px;
         top: -350px;
     }
@@ -663,6 +662,10 @@
         margin: 30px 30px;
         
     
+    }
+
+    .ayudatarjetas{
+        flex-direction: row;
     }
 
 
