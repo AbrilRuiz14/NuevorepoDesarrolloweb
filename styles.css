@@ -197,7 +197,7 @@
     flex-direction: column;
     align-items: center;
 }
-.tarjetas__ayuda1 {
+.tarjetas__ayuda {
     width: 30%;
     height: 20vh;
     background-color: white;
@@ -208,43 +208,14 @@
     font-size: 10px;
 
 }
-.tarjetas__ayuda2 {
-    width: 30%;
-    height: 20vh;
-    background-color: white;
-    border: 2px solid skyblue;
-    line-height: 100%;
-    margin: 10px 10px;
-    text-align: center;
-    font-size: 10px;
-}
-.tarjetas__ayuda3 {
-    width: 30%;
-    height: 20vh;
-    background-color: white;
-    border: 2px solid skyblue;
-    line-height: 100%;
-    margin: 10px 10px;
-    text-align: center;
-    font-size: 10px;
-}
-.tarjetas__ayuda4 {
-    width: 30%;
-    height: 20vh;
-    background-color: white;
-    border: 2px solid skyblue;
-    line-height: 100%;
-    margin: 10px 10px;
-    text-align: center;
-    font-size: 10px;
-}
+
 .ayudatarjetas {
     display: flex;
     padding: 10px;
     flex-direction: column;
     align-items: center;
 }
-.ayuda__tarjetas1 {
+.ayuda__tarjetas {
     width: 20%;
     height: 20vh;
     background-color: white;
@@ -254,16 +225,7 @@
     text-align: center;
     font-size: 10px;
 }
-.ayuda__tarjetas2 {
-    width: 20%;
-    height: 20vh;
-    background-color: white;
-    border: 2px solid skyblue;
-    line-height: 100%;
-    margin: 10px 10px;
-    text-align: center;
-    font-size: 10px;
-}
+
 .tiendas__imagen {
     margin-top: 20px;
 }
@@ -304,14 +266,11 @@
     margin-top: 40px;
     font-size: 10px;
 }
-.tarjetas__tiendas__1 {
+.tarjetas__tiendas {
     margin-top: 60px;
     margin-left: 10px;
 }
-.tarjetas__tiendas__2 {
-    margin-top: 60px;
-    margin-right: 20px;
-}
+
 .tarjetasabajo {
     display: flex;
     padding: 10px;
@@ -342,14 +301,11 @@
     font-size: 10px; 
     margin-bottom: 200px;
 }
-.tarjetas__abajo__1 {
+.tarjetas__abajo {
     margin-top: 60px;
     margin-left: 10px
 }
-.tarjetas__abajo__2 {
-    margin-top: 60px;
-    margin-right: 20px;
-}
+
 .favoritos{
     text-align: center;
     font-weight: bold;
@@ -383,7 +339,7 @@
     flex-direction: column;
     align-items: center;
 }
-.tarjetacarrito__1 {
+.tarjetacarrito_ {
     width: 50%;
     height: 50vh;
     background-color: white;
@@ -392,16 +348,7 @@
     text-align: center;
     margin: 30px 30px;
 }
-.tarjetacarrito__2 {
-    width: 50%;
-    height: 50vh;
-    background-color: white;
-    border: 2px solid white;
-    line-height: 100%;
-    text-align: center;
-    margin: 30px 30px;
-    margin-bottom: 30px;
-}
+
 .tarjetacarrito__titulo {
     text-align: justify;
     color: skyblue;
