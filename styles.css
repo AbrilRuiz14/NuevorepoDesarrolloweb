@@ -570,7 +570,7 @@
    
     .navbar__derecha {
         position: relative;
-        left: 200px;
+        left: 300px;
     }
 
     .aprovecha{
@@ -596,7 +596,7 @@
     
     .button__articulo {
 
-        padding: 0px 10px;
+        
         border-radius: 4px;
         margin: 0;
         font-size: 18px;
@@ -623,8 +623,7 @@
     .iconos {
         
         padding: 80px;
-        width: 10%;
-        height: 0;
+        
         
     }
     .iconos__redes {
@@ -640,7 +639,7 @@
         border: 2px solid white;
         line-height: 100%;
         text-align: center;
-        margin-top: -100px;
+        margin-top: 5px;
     }
     
     .titulo__ayuda {
@@ -657,6 +656,7 @@
     .tarjetasayuda {
         
         padding: 10px;
+        flex-direction: row;
     }
     .tarjetas__ayuda {
         
@@ -670,6 +670,7 @@
         
         margin: 30px 30px;
         margin-bottom: 200px;
+        flex-direction: row;
     }
 
     .titulo_tiendas {
