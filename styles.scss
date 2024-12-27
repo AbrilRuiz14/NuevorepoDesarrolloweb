@@ -1,7 +1,29 @@
 $primary-color: beige;
-$font-stack: Lucida;
-$secundary-color:skyblue;
+$font-stack: 'Lucida Sans';
+$secundary-color: skyblue;
+$tertiary-color: blueviolet;
 
 .navbar {
-    
+    background-color: $primary-color;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 100px;
+        align-items: center;
+        list-style: none;
+
+        li {
+            margin: 0 15px;
+
+            a {
+                color: black;
+                text-decoration: none;
+                font-family: $font-stack;
+                padding: 15px 20px;
+                display: block;
+            }
+        }
+    }
 }
